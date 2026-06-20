@@ -19,7 +19,7 @@ def exibirProdutos():
     return jsonify(produtos)
 
 #Criar rota para adicionar um produto
-@app.route('/criar', methods=['POST'])
+@app.route('/', methods=['POST'])
 def criarProduto():
     produtoNovo = request.get_json()
     produtos.append(produtoNovo)
