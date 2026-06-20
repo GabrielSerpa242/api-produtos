@@ -6,7 +6,7 @@ app = Flask(__name__)
 #Habilitar o CORS
 CORS(app)
 
-#Criando nosso banco de dados local
+#Criando nosso banco de dados local.
 produtos = [
     {"id":1, "nome":"Notebook Gamer","preco": 5000},
     {"id":2, "nome":"Cadeira Gamer","preco": 300},
